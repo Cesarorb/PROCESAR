@@ -1,0 +1,175 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+
+% Tema de moderncv
+\moderncvstyle{casual} 
+\moderncvcolor{blue} 
+
+% Paquetes adicionales
+\usepackage[utf8]{inputenc} 
+\usepackage[scale=0.75]{geometry}
+\usepackage{multicol} % Paquete para columnas múltiples
+
+% Datos personales
+\name{César Octavio}{Ruiz Barrañón}
+\title{Ingeniero en Mecatrónica}
+\email{cesaroctavioruizbarranon@gmail.com}
+\phone[mobile]{222 422 6036}
+\photo[192pt]{foto.png} % Tamaño de la foto aumentado a 192pt y sin borde
+
+\begin{document}
+
+% Cabecera
+\begin{minipage}[c]{0.3\textwidth}
+    \includegraphics[width=\linewidth]{foto.png}
+\end{minipage}
+\begin{minipage}[c]{0.7\textwidth}
+    \vspace{-6em} % Ajusta el valor según sea necesario para subir el texto
+    \textbf{\huge César Octavio Ruiz Barrañón}\\
+    \textit{Ingeniero en Mecatrónica}\\
+    cesaroctavioruizbarranon@gmail.com\\
+    222 422 6036
+\end{minipage}
+
+\vspace{1.5em} % Espacio adicional entre la cabecera y el contenido
+
+% Sobre mí
+\section{Sobre Mí}
+\cvitem{}{
+Soy una persona responsable, excelente compañero de equipo, puntual y trabajador. Disfruto mucho aprender cosas nuevas y poder compartir mi experiencia.
+}
+
+% Educación
+\section{Educación}
+\cventry{2013}{Ingeniería en Mecatrónica}{Benemérita Universidad Autónoma de Puebla}{}{}{}
+
+\begin{multicols}{2}
+% Habilidades
+\section{Habilidades}
+\cvitem{}{
+\begin{itemize}
+\item Colaboración
+\item Adaptabilidad Tecnológica
+\item Aprendizaje Continuo
+\item Estrategias de Aprendizaje
+\item Capacidad Comunicativa
+\item Creatividad
+\item Capacidad de Innovación
+\item Ética
+\item Empatía
+\item Escucha Activa
+\item Pensamiento Analítico
+\end{itemize}
+}
+
+% Idiomas
+\section{Idiomas}
+\cvitem{Español}{Lengua Materna}
+\cvitem{Inglés}{Avanzado}
+
+% Aptitudes
+\section{Aptitudes}
+\cvitem{}{
+\begin{itemize}
+\item Trabajo en Equipo 
+\item Comunicación Oral
+\item Comunicación Escrita
+\item Resolución de Problemas
+\item Habilidades Interpersonales 
+\item Responsabilidad
+\item Puntualidad
+\item Obediencia
+\end{itemize}
+}
+\end{multicols}
+
+% Herramientas (en una lista dividida en columnas)
+\section{Herramientas}
+\vspace{-\baselineskip} % Elimina el espacio entre el título y la lista
+\cvitem{}{
+\begin{multicols}{3}
+    \begin{itemize}
+    \item MySQL Workbench
+    \item OracleDB
+    \item PL/SQL
+    \item Java SE
+    \item Spring Boot
+    \item Spring Data JPA
+    \item Spring Security
+    \item Microservicios REST
+    \item Angular
+    \item Bootstrap
+    \item Git
+    \item GitHub
+    \item Eclipse
+    \item Spring Tools Suite
+    \item JUnit
+    \item Postman
+    \item MVC
+    \item Maven
+    \end{itemize}
+\end{multicols}
+}
+
+\newpage
+
+% Certificaciones y Diplomados
+\section{Certificaciones y Diplomados}
+\cvitem{2023}{Fundamentos de Scrum | ALAIMO LABS}
+\cvitem{2023}{Scrum Foundation Professional Certification SFPC - (Spanish) | CertiProf}
+\cvitem{2023}{Scrum Fundamentals Certified | VMEdu Inc.}
+
+% Experiencia Laboral
+\section{Experiencia Laboral}
+\cventry{Jul 2024 - Actual}{Analista de Desarrollo}{PROCESAR}{}{}{
+\begin{itemize}
+    \item Backend Java.
+    \item Consumo con Postman.
+    \item Modificación de generación de formatos.
+\end{itemize}
+}
+
+\cventry{Feb 2024 - Jun 2024}{Desarrollador Java Jr.}{Freelance}{}{}{
+\begin{itemize}
+    \item Diseño y desarrollo de base de datos en Oracle.
+    \item Implementación de un catálogo CRUD en Java.
+    \item Realización de pruebas unitarias con JUnit.
+    \item Verificación de conexiones de endpoints utilizando Postman.
+    \item Desarrollo de interfaz de usuario front-end utilizando Angular.
+\end{itemize}
+}
+
+\cventry{Dic 2023 - Ene 2024}{Desarrollador Java Jr.}{INBURSA}{Desarrollos Menores}{Área de Seguros}{
+\begin{itemize}
+    \item Actualización y mejora de funciones existentes en la intranet del Sistema utilizando Java.
+    \item Desarrollo de nuevas funcionalidades para optimizar el rendimiento del sistema.
+    \item Colaboración en el diseño e implementación de soluciones para mejorar la experiencia del usuario.
+    \item Trabajo en equipo con otros desarrolladores y departamentos para asegurar la integración efectiva de los cambios.
+\end{itemize}
+}
+
+\cventry{Oct 2022 - Oct 2023}{Desarrollador Java Jr.}{NAUKA TECHNOLOGY S.A. DE C.V.}{}{}{
+\begin{itemize}
+    \item Migración del sistema de Recursos Humanos a una versión WS.
+    \item Desarrollo del Front de los sistemas del ERP.
+    \item Desarrollo de los componentes del módulo de productos.
+    \item Desarrollo de los controladores de las aplicaciones de alta de producto y stock.
+    \item Desarrollo de las consultas en la capa DAO de los módulos anteriores.
+    \item Creación de Triggers y procedimientos almacenados en la base de datos.
+    \item Diseño de página web.
+    \item Creación y consumo de WS.
+    \item Actualizaciones y corrección de bugs.
+\end{itemize}
+}
+
+\cventry{Jul 2021 - Ago 2022}{Desarrollador Java Jr.}{MAKSA}{}{}{
+\begin{itemize}
+    \item Migración del sistema de Recursos Humanos a una versión WS.
+    \item Mantenimiento al sistema de ventas.
+    \item Desarrollo del módulo de catálogos.
+    \item Desarrollo del módulo de bolsa de trabajo.
+    \item Captura de datos para los diferentes sistemas.
+    \item Creación y consumo de WS.
+    \item Diseño de página web.
+\end{itemize}
+}
+\end{document}
